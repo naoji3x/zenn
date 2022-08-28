@@ -1,0 +1,12 @@
+{
+  "license" : "MIT",
+  "scripts": {
+    "dev": "npx zenn preview",
+    "article": "npx zenn new:article --slug ",
+    "book": "npx zenn new:book --slug "
+  },
+
+  "dependencies": {
+    "zenn-cli": "^0.1.117"
+  }
+}
