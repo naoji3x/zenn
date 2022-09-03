@@ -26,7 +26,7 @@ https://youtu.be/7NXleruXlQk
 
 ## 左右に歩くアニメーション
 
-[前回](/articles/scratch-telenger-0010)はその場で右に歩くアニメーションまで実装しました。今回は左右に歩くアニメーションを実現したいので前回の内容を参考に、左に歩くアニメーションをコスチュームで追加して下さい。
+[前回](https://zenn.dev/naoji/articles/scratch-telenger-0010)はその場で右に歩くアニメーションまで実装しました。今回は左右に歩くアニメーションを実現したいので前回の内容を参考に、左に歩くアニメーションをコスチュームで追加して下さい。
 
 ![コスチューム](/images/scratch-telenger-0020/walking-02-costumes.png)
 
