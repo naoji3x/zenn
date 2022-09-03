@@ -3,7 +3,7 @@ title: "Scratchでオリジナルキャラクターを動かそう！ (1) テレ
 emoji: "🧑‍💻"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["scratch", "CoderDojo", "animation"]
-published: false
+published: true
 ---
 
 ## はじめに
@@ -80,7 +80,7 @@ https://affinity.serif.com/ja-jp/designer
 
 ![テレッドサンプル](/images/scratch-telenger-0010/tel-red-sample.png)
 
-Affinity Designerを利用されている方は以下の **[このリンク](https://github.com/naoji3x/zenn/blob/main/assets/scratch/tel-red/tel-red.afdesign)** からファイルをダウンロードしてご利用下さい。[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.ja)で公開しています。
+Affinity Designerを利用されている方は [このリンク](https://github.com/naoji3x/zenn/blob/main/assets/scratch/tel-red/tel-red.afdesign) からファイルをダウンロードしてご利用できます。ライセンスは[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.ja)で公開しています。
 
 ## 素材の書き出し
 
@@ -133,7 +133,7 @@ Affinity Designerから出力されるsvgファイルは幅・高さが100%で�
 
 ## アニメーション
 
-その後、コスチュームをコピーして、手足や体の位置を調整してパラパラ漫画の要領でアニメーションを作成します。
+その後、コスチュームをコピーして、パラパラ漫画と同じようにコマ毎に手足や体の位置を調整してアニメーションを作成します。
 
 ![アニメーションの作成](/images/scratch-telenger-0010/create-costumes.png)
 
