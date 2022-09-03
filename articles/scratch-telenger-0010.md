@@ -107,7 +107,7 @@ Affinity Designerから出力されるsvgファイルは幅・高さが100%で�
 <svg width="100%" height="100%" viewBox="0 0 119 136" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" ... >
 ```
 
-ここまで来れば、後はお馴染みのScratch上での作業になります。ここまでの作業は面倒ですので、[ここからsvgファイルをダウンロード](https://github.com/naoji3x/zenn/tree/main/assets/scratch/tel-red/svg)してご利用いただくことも可能です。
+ここまで来れば、後はお馴染みのScratch上での作業になります。ここまでの作業は面倒ですので、[ここからsvgファイルをダウンロード](https://github.com/naoji3x/zenn/tree/main/assets/scratch/tel-red/svg)してご利用いただくことも可能です。一括の[圧縮ファイルはこちら](https://github.com/naoji3x/zenn/blob/main/assets/scratch/tel-red/svg/tel-red-svg-files.zip)になります。
 
 ## 素材の読み込み
 
