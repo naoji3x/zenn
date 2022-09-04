@@ -3,7 +3,7 @@ title: "Scratchでオリジナルキャラクターを動かそう！ (2) こい
 emoji: "🧑‍💻"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["scratch", "CoderDojo", "animation"]
-published: false
+published: true
 ---
 
 ## はじめに
@@ -18,9 +18,9 @@ published: false
 
 ### Scratchのサイト
 
-1. **こいつ動くぞ！その場で左右に歩く　[こいつ動くぞ！その場で左右に歩く](https://scratch.mit.edu/projects/727787371/)**
-2. **こいつ動くぞ！矢印キーで動く！[こいつ動くぞ！矢印キーで動く！!](https://scratch.mit.edu/projects/727788493/)**
-3. **こいつブロック定義で動くぞ！[こいつブロック定義で動くぞ！](https://scratch.mit.edu/projects/727788755/)**
+1. **[こいつ動くぞ！その場で左右に歩く](https://scratch.mit.edu/projects/727787371/)**
+2. **[こいつ動くぞ！矢印キーで動く！](https://scratch.mit.edu/projects/727788493/)**
+3. **[こいつブロック定義で動くぞ！](https://scratch.mit.edu/projects/727788755/)**
 
 https://youtu.be/7NXleruXlQk
 
