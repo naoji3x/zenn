@@ -3,7 +3,7 @@ title: "Scratchでオリジナルキャラクターを動かそう！ (4) 戦場
 emoji: "🧑‍💻"
 type: "tech"
 topics: ["scratch", "CoderDojo", "animation"]
-published: false
+published: true
 ---
 
 ## はじめに
@@ -46,7 +46,7 @@ Scratchでは背景は通常はステージで設定しますが、残念なが�
 
 それでは背景素材から作っていきましょう。今回もAffinity Designerを使って作ってみました。背景素材は幅480px, 高さ360pxで作成することで画面ピッタリに収まります。作り方はテレッドの素材を作った時とやり方は同じですので割愛しますが、svgファイルの`width="100%" height="100%"`を削除するのを忘れずに実施して下さい。
 
-[ここからsvgファイルをダウンロード](https://github.com/naoji3x/zenn/tree/main/assets/scratch/tel-red/svg)してご利用いただくことも可能です。Affinity Designerのファイルは[こちら](https://github.com/naoji3x/zenn/tree/main/assets/scratch/tel-red/svg)、一括の[圧縮ファイルはこちら](https://github.com/naoji3x/zenn/blob/main/assets/scratch/tel-red/svg/tel-red-svg-files.zip)になります。
+[ここからsvgファイルをダウンロード](https://github.com/naoji3x/zenn/tree/main/assets/scratch/background/svg)してご利用いただくことも可能です。Affinity Designerのファイルは[こちら](https://github.com/naoji3x/zenn/tree/main/assets/scratch/background/background.afdesign)、一括の[圧縮ファイルはこちら](https://github.com/naoji3x/zenn/blob/main/assets/scratch/background/svg/background-svg-files.zip)になります。
 
 背景画像をコスチュームとして読み込み、コスチューム名を**背景1,背景2,背景3,背景4,背景5**に変更ください。なお1,2,3,4,5の**数値は半角**にして下さい（後のコードの中で使います）。また、読み込んだ画像のパーツを全選択してグループ化して下さい（グループ化しないと画面に表示されませんでした）。
 
@@ -64,7 +64,7 @@ Scratchでは背景は通常はステージで設定しますが、残念なが�
 2. **背景番号**は背景に付与する連番、**背景横位置**は背景のx方向の位置をコードで設定します。
 3. 背景のスプライトをクローンで複製します。背景番号を一づつ増やしてクローンすることで複製先のスプライトの連番を設定します。
 4. 元のスプライトの**背景番号**、コスチュームを設定して表示します。
-5. クローンされたスプライトを初期化します。コスチュームを**背景+背景番号**で設定し、背景横位置を`480 x (背景番号-1)`で設定して、非表示にします。
+5. クローンされたスプライトを初期化します。コスチュームを**背景+背景番号**で設定し、**背景横位置**を`480 x (背景番号-1)`で設定して、非表示にします。
 
 ## テレッドの動きに合わせて背景を横スクロールさせる
 
@@ -87,13 +87,13 @@ Scratchでは背景は通常はステージで設定しますが、残念なが�
 
 ![右に横移動](/images/scratch-telenger-0040/scrolling-01-move-right.png)
 
-後はステージの背景にお好みの背景を設定して完了です！
+後はステージにお好みの背景を設定して完了です！
 
 ## 左右の非表示エリアの設定
 
 完了、と思ったところですが、Scratchはスプライトが行方不明にならないよう、画面に必ず15ピクセル分スプライトが表示されるようスプライトのx, y座標を勝手に書き換える仕様が入っています。このままですと背景コスチュームの切れ目で表示がチラつきます。
 
-これについてはうまい解決策が思いつかず、画面の左右に15ピクセル分、白い空白を表示することにしました。
+これについてはうまい解決策が思いつかず思いつかず😭、画面の左右に15ピクセル分、白い空白を表示することにしました。
 
 ## おわりに
 
