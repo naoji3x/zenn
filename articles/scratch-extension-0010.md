@@ -3,7 +3,7 @@ title: "Scratchを拡張しよう！(1)天気予報を取得"
 emoji: "😾"
 type: "tech"
 topics: ["scratch", "CoderDojo", "javascript"]
-published: false
+published: true
 ---
 
 ## はじめに
