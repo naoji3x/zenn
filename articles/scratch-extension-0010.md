@@ -645,6 +645,34 @@ const prefectureLocations = [
 module.exports = prefectureLocations;
 ```
 
+#### extension-manager.jsへの登録
+
+上記のコードをScratch-vmに登録します。`src/extension-support/extension-manager.js`を以下のように修正します。
+
+```javascript
+...中略
+const builtinExtensions = {
+    // This is an example that isn't loaded with the other core blocks,
+    // but serves as a reference for loading core blocks as extensions.
+    coreExample: () => require('../blocks/scratch3_core_example'),
+    // These are the non-core built-in extensions.
+    pen: () => require('../extensions/scratch3_pen'),
+    wedo2: () => require('../extensions/scratch3_wedo2'),
+    music: () => require('../extensions/scratch3_music'),
+    microbit: () => require('../extensions/scratch3_microbit'),
+    text2speech: () => require('../extensions/scratch3_text2speech'),
+    translate: () => require('../extensions/scratch3_translate'),
+    videoSensing: () => require('../extensions/scratch3_video_sensing'),
+    ev3: () => require('../extensions/scratch3_ev3'),
+    makeymakey: () => require('../extensions/scratch3_makeymakey'),
+    boost: () => require('../extensions/scratch3_boost'),
+    gdxfor: () => require('../extensions/scratch3_gdx_for'),
+    openMeteo: () => require('../extensions/scratch3_open_meteo') // <- この行を追加
+};
+...中略
+```
+
+
 ### テスト
 
 以下のコマンドを実行後、`http://localhost:8601`にブラウザでアクセスするとお馴染みのScratchのサイトから拡張機能を確認できます。ソースコードの変更がリアルタイムに反映されますので効率的にデバッグできます。
