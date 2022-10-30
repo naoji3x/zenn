@@ -144,7 +144,7 @@ require('regenerator-runtime/runtime');
 
 上記のアイコンはソースコードに埋め込みますので、[こちらのサイト](https://lab.syncer.jp/Tool/Base64-encode/)等でbase64にエンコードして下さい（このあたりも[タコキンのPスクール・ブログ](https://p-school.tacoskingdom.com/blog/39)に詳しく記載されています）。
 
-いよいよ拡張機能の開発です。`src/extensions`ディレクトリにopen_meteoディレクトリを格納し、以下のコードを追加ください。
+いよいよ拡張機能の開発です。`src/extensions`ディレクトリにscratch3_open_meteoディレクトリを作成し、以下のファイルを追加してコードを記述下さい。
 
 #### index.js
 
@@ -679,7 +679,7 @@ const builtinExtensions = {
 
 ```bash
 cd ../scratch-gui
-yarn start
+npm start
 ```
 
 ### GitHub Pagesでの公開
