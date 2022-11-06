@@ -15,7 +15,7 @@ published: true
 **[天気予報拡張機能付きScratch](https://naoji3x.github.io/scratch-gui/)**
 
 ![天気予報拡張機能付きScratch](/images/scratch-extension-0010/extension.png)
-*ラージサイズ 600px x 372px*
+*天気予報拡張機能付きScratch*
 
 拡張機能から天気予報を追加すると、
 
