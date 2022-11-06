@@ -3,7 +3,7 @@ title: "Scratchを拡張しよう！(2)地図を表示"
 emoji: "😾"
 type: "tech"
 topics: ["scratch", "CoderDojo", "javascript"]
-published: false
+published: true
 ---
 
 ## はじめに
