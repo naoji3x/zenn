@@ -246,7 +246,6 @@ module.exports = Scratch3OpenStreetMapBlocks;
             // ここまで
 ```
 
-
 #### tile-map.js
 
 ```javascript
@@ -400,7 +399,6 @@ class TileCache {
 
 module.exports = TileCache;
 ```
-
 
 #### extension-manager.jsへの登録
 
