@@ -29,7 +29,7 @@ https://youtu.be/5wvkZ6YrmB8
 
 ## 素材の作成
 
-デジタル・フラッシュのフラッシュとビームは前回同様、[Affinity Designer](https://affinity.serif.com/ja-jp/designer)で作成しました。作成方法につきましは、[(1) テレんじゃー大地に立つ！](https://zenn.dev/naoji/articles/scratch-telenger-0010)を参照下さい。Affinity Designerのファイルは[こちら](https://github.com/naoji3x/zenn/blob/main/assets/scratch/stamp-collecting/stamp-collecting.afdesign)。
+デジタル・フラッシュのフラッシュとビームは前回同様、[Affinity Designer](https://affinity.serif.com/ja-jp/designer)で作成しました。作成方法につきましは、[(1) テレんじゃー大地に立つ！](https://zenn.dev/naoji/articles/scratch-telenger-0010)を参照下さい。Affinity Designerのファイルは[こちら](https://github.com/naoji3x/zenn/blob/main/assets/scratch/tel-red/tel-red-effects.afdesign)。
 
 フラッシュはグラデーション塗りと境界線のブラシで光を表現し、ビームはクイックFXの３Dを使って立体的に見えるように調整しています。
 
