@@ -91,3 +91,13 @@ https://youtu.be/NI-WtFSKqoE
 ## おわりに
 
 お疲れ様でした。少し複雑になってきましたが、ここまででコスチューム、ブロック定義、変数とScratchでよく使う要素が網羅できてきました。次は背景を加えていきたいと思います！
+
+## Scratchでオリジナルキャラクターを動かそう！ インデックス
+
+[(1) テレんじゃー大地に立つ！（アニメーション）](https://zenn.dev/naoji/articles/scratch-telenger-0010)
+[(2) こいつ動くぞ！（キーボードで動かす）](https://zenn.dev/naoji/articles/scratch-telenger-0020)
+(3) 翔べ！テレんじゃー（ジャンプ）
+[(4) 戦場はオフィス（背景を動かす）](https://zenn.dev/naoji/articles/scratch-telenger-0040)
+[(5) ハンコの脅威（敵キャラを動かす）](https://zenn.dev/naoji/articles/scratch-telenger-0050)
+[(6) 死闘！デジタル・フラッシュ（ビーム発射）](https://zenn.dev/naoji/articles/scratch-telenger-0060)
+[(7) オフィスの激戦（当たり判定）](https://zenn.dev/naoji/articles/scratch-telenger-0070)

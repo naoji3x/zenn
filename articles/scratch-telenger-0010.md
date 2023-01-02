@@ -144,3 +144,13 @@ Affinity Designerから出力されるsvgファイルは幅・高さが100%で�
 ## おわりに
 
 お疲れ様でした。ようやくテレんじゃーが大地に立ちました！オリジナル素材が活用できるとグッと印象が変わってきますね！これ以降はScratch上でこれらの素材を活用した作品を作っていきます。
+
+## Scratchでオリジナルキャラクターを動かそう！ インデックス
+
+(1) テレんじゃー大地に立つ！（アニメーション）
+[(2) こいつ動くぞ！（キーボードで動かす）](https://zenn.dev/naoji/articles/scratch-telenger-0020)
+[(3) 翔べ！テレんじゃー（ジャンプ）](https://zenn.dev/naoji/articles/scratch-telenger-0030)
+[(4) 戦場はオフィス（背景を動かす）](https://zenn.dev/naoji/articles/scratch-telenger-0040)
+[(5) ハンコの脅威（敵キャラを動かす）](https://zenn.dev/naoji/articles/scratch-telenger-0050)
+[(6) 死闘！デジタル・フラッシュ（ビーム発射）](https://zenn.dev/naoji/articles/scratch-telenger-0060)
+[(7) オフィスの激戦（当たり判定）](https://zenn.dev/naoji/articles/scratch-telenger-0070)

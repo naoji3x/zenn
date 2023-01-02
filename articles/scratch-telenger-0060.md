@@ -64,7 +64,6 @@ https://youtu.be/5wvkZ6YrmB8
 「全てのスプライト用の変数」の使用は必要最低限に留め、基本的には「このスプライトのみ」を使うようにしましょう。
 :::
 
-
 フラッシュのスプライトは、
 
 1. クローンされたときに、テレンじゃーの向きに応じて、右向きの時はテレンじゃーのx座標+40、左向きの時はテレンじゃーのx座標-40にフラッシュを表示し、
@@ -82,3 +81,13 @@ https://youtu.be/5wvkZ6YrmB8
 ## おわりに
 
 デジタル・フラッシュ、必殺技らしく仕上がってきました。次回はビームの当たり判定に挑戦します！
+
+## Scratchでオリジナルキャラクターを動かそう！ インデックス
+
+[(1) テレんじゃー大地に立つ！（アニメーション）](https://zenn.dev/naoji/articles/scratch-telenger-0010)
+[(2) こいつ動くぞ！（キーボードで動かす）](https://zenn.dev/naoji/articles/scratch-telenger-0020)
+[(3) 翔べ！テレんじゃー（ジャンプ）](https://zenn.dev/naoji/articles/scratch-telenger-0030)
+[(4) 戦場はオフィス（背景を動かす）](https://zenn.dev/naoji/articles/scratch-telenger-0040)
+[(5) ハンコの脅威（敵キャラを動かす）](https://zenn.dev/naoji/articles/scratch-telenger-0050)
+(6) 死闘！デジタル・フラッシュ（ビーム発射）
+[(7) オフィスの激戦（当たり判定）](https://zenn.dev/naoji/articles/scratch-telenger-0070)

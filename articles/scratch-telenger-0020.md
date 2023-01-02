@@ -66,3 +66,13 @@ https://youtu.be/7NXleruXlQk
 ## おわりに
 
 お疲れ様でした。まだまだ単純なアニメーションですが、基本的な構造は出来上がりました！後は表現をどんどん追加していくだけです。次はテレッドを跳ばしてみます！
+
+## Scratchでオリジナルキャラクターを動かそう！ インデックス
+
+[(1) テレんじゃー大地に立つ！（アニメーション）](https://zenn.dev/naoji/articles/scratch-telenger-0010)
+(2) こいつ動くぞ！（キーボードで動かす）
+[(3) 翔べ！テレんじゃー（ジャンプ）](https://zenn.dev/naoji/articles/scratch-telenger-0030)
+[(4) 戦場はオフィス（背景を動かす）](https://zenn.dev/naoji/articles/scratch-telenger-0040)
+[(5) ハンコの脅威（敵キャラを動かす）](https://zenn.dev/naoji/articles/scratch-telenger-0050)
+[(6) 死闘！デジタル・フラッシュ（ビーム発射）](https://zenn.dev/naoji/articles/scratch-telenger-0060)
+[(7) オフィスの激戦（当たり判定）](https://zenn.dev/naoji/articles/scratch-telenger-0070)

@@ -98,3 +98,13 @@ Scratchでは背景は通常はステージで設定しますが、残念なが�
 ## おわりに
 
 お疲れ様でした。Scratchはスクロールさせようとすると結構面倒ですね。コードも直感的でないのでやや難しいと思います。でも、ここまでくるとかなりゲームっぽくなってきて面白くなってきました。いよいよ次は敵キャラクターを出現させたいと思います!
+
+## Scratchでオリジナルキャラクターを動かそう！ インデックス
+
+[(1) テレんじゃー大地に立つ！（アニメーション）](https://zenn.dev/naoji/articles/scratch-telenger-0010)
+[(2) こいつ動くぞ！（キーボードで動かす）](https://zenn.dev/naoji/articles/scratch-telenger-0020)
+[(3) 翔べ！テレんじゃー（ジャンプ）](https://zenn.dev/naoji/articles/scratch-telenger-0030)
+(4) 戦場はオフィス（背景を動かす）
+[(5) ハンコの脅威（敵キャラを動かす）](https://zenn.dev/naoji/articles/scratch-telenger-0050)
+[(6) 死闘！デジタル・フラッシュ（ビーム発射）](https://zenn.dev/naoji/articles/scratch-telenger-0060)
+[(7) オフィスの激戦（当たり判定）](https://zenn.dev/naoji/articles/scratch-telenger-0070)
