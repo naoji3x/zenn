@@ -22,9 +22,9 @@ Scratchは標準でついてくるスプライトや背景が充実している�
 
 知人の娘さんが描いた「デジタル戦隊テレんじゃー」の「テレッド」をオリジナル素材のキャラクターに採用させていただきました。「デジタル戦隊テレんじゃー」のストーリーは追々紹介しますが、先ずは素材を読み込んで簡単なアニメーションを表示するまで進めます。今回の成果物は以下になります。
 
-Scratchのサイト: **[テレンジャー大地に立つ！](https://scratch.mit.edu/projects/721537368)**
+Scratchのサイト: **[テレんじゃー大地に立つ！](https://scratch.mit.edu/projects/721537368)**
 
-https://youtu.be/Q7rzn2WYZ0Y
+![テレんじゃー大地に立つ！](/images/scratch-telenger-0010/scratch-telenger-0010-2-walking.gif)
 
 ## 素材の作成
 
@@ -63,7 +63,7 @@ https://procreate.art/jp
 
 下書き段階ではテレッドの息子を主人公にしようと思って描いたので子供のキャラクターになっていますが😅、本素材をAffinity Designerで編集する際に、パーツの大きさを調整してお父さんのテレッドに修正しています。このくらいの単純な素材ならこのくらいラフに作成しても問題ありません。なお、以下の動画はProcreateのタイムラプス機能で作成しています。
 
-https://youtu.be/nmFM1aSVi4s
+![テレんじゃーラフ](/images/scratch-telenger-0010/scratch-telenger-0010-1-rough.gif)
 
 
 #### 本素材の作成(Affinity Designer)

@@ -20,7 +20,7 @@ published: true
 
 **[死闘！デジタル・フラッシュ](https://scratch.mit.edu/projects/782276128/)**
 
-https://youtu.be/5wvkZ6YrmB8
+![死闘！デジタル・フラッシュ](/images/scratch-telenger-0060/scratch-telenger-0060-fighting.gif)
 
 今回の教材でも前回と同様、Scratchの以下の機能を活用しています；
 

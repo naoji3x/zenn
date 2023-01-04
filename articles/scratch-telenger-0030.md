@@ -23,7 +23,7 @@ published: true
 3. **[翔べ！テレんじゃー スムーズに動く](https://scratch.mit.edu/projects/729978889)**
 4. **[翔べ！テレんじゃー](https://scratch.mit.edu/projects/729980981)**
 
-https://youtu.be/NI-WtFSKqoE
+![翔べテレんじゃー！](/images/scratch-telenger-0030/scratch-telenger-0030-jumping.gif)
 
 ## 待っている時のアニメーション
 

@@ -20,7 +20,7 @@ published: true
 
 **[オフィスの激戦](https://scratch.mit.edu/projects/782873425/)**
 
-https://youtu.be/ZmOx7AGsP4M
+![オフィスの激戦](/images/scratch-telenger-0070/scratch-telenger-0070-1-fighting.gif)
 
 今回はScratchの以下の機能を活用しています。
 
@@ -107,7 +107,7 @@ https://youtu.be/ZmOx7AGsP4M
 
 最後に`ビーム命中`のメッセージを受け取った際の意図しない挙動について紹介します。`ハンコまわし`がダメージを受けている最中にさらにビームを命中させてみて下さい（ちょっと難しいかも・・・）。そうするとピクセル化がさらに進んでいくことがわかると思います。
 
-https://youtu.be/YZUWXLYx4Rs
+![意図しない挙動](/images/scratch-telenger-0070/scratch-telenger-0070-2-fighting.gif)
 
 これは`ビーム命中`のメッセージを複数回受け取ったことで、ピクセル化が進んでいる最中にさらにピクセル化が進む、といった現象が起こっています。これはこれで面白いのでOKですが、コードを見ただけでは想定しにくい挙動ですので要注意です。
 

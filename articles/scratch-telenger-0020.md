@@ -22,7 +22,7 @@ published: true
 2. **[こいつ動くぞ！矢印キーで動く！](https://scratch.mit.edu/projects/727788493/)**
 3. **[こいつブロック定義で動くぞ！](https://scratch.mit.edu/projects/727788755/)**
 
-https://youtu.be/7NXleruXlQk
+![こいつ動くぞ！](/images/scratch-telenger-0020/scratch-telenger-0020-walking.gif)
 
 ## 左右に歩くアニメーション
 

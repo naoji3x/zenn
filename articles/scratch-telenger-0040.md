@@ -24,7 +24,7 @@ published: true
 
 **[戦場はオフィス](https://scratch.mit.edu/projects/733678294)**
 
-https://youtu.be/pguDH9V9YnQ
+![戦場はオフィス](/images/scratch-telenger-0040/scratch-telenger-0040-scrolling.gif)
 
 ## 背景の横スクロールのやり方
 

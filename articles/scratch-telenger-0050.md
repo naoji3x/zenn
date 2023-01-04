@@ -22,7 +22,7 @@ published: true
 
 **[はんこの脅威](https://scratch.mit.edu/projects/746229425/)**
 
-https://youtu.be/K7zyaaLXNrM
+![はんこの脅威](/images/scratch-telenger-0050/scratch-telenger-0050-fighting.gif)
 
 今回の教材ではScratchの以下の機能を活用しています；
 
