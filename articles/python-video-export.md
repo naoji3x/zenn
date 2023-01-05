@@ -3,16 +3,16 @@ title: "Pythonで動画ファイルからGIFアニメーションを作成"
 emoji: "🐍"
 type: "tech"
 topics: ["python", "CoderDojo", "video"]
-published: false
+published: true
 ---
 
 ## はじめに
 
-Scratchで作った作品の解説のために、[youtubeで動画を公開](https://www.youtube.com/channel/UC5Zmd4YgCeQ3OgYmJWLM6cg)し記事にリンクを貼っていましたが、再生に再生ボタンを押すという一手間、と、再生した後におすすめ動画一覧が表示されてしまう点、を改善したかったため、今回、動画をGIFアニメーションに置き換えました。その際、色々な調整を効率化するためPythonのスクリプトで動画を変換するようにしていますのでその手順をまとめます。
+Scratchで作った作品の解説のために、[youtubeで動画を公開](https://www.youtube.com/channel/UC5Zmd4YgCeQ3OgYmJWLM6cg)し記事にリンクを貼っていましたが、再生ボタンを押すという一手間、と、再生した後におすすめ動画一覧が表示されてしまう点、を改善したかったため、今回、GIFアニメーションに置き換えました。その際、色々な調整を効率化するためPythonのスクリプトで動画を変換してみました。
 
 ## GIFアニメーションとは
 
-GIFは画像のファイルフォーマットの一つで、静止画だけでなくアニメーションも表示できます（詳しくは[こちら](https://ja.wikipedia.org/wiki/GIF%E3%82%A2%E3%83%8B%E3%83%A1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3)）。音声はファイルに保存できない、256色までしか表示できない、等の短所がありますが、古くあるフォーマットなので多くのソフトが対応しています。
+GIFは画像ファイルフォーマットの一つで、静止画だけでなくアニメーションも表示できます（詳しくは[こちら](https://ja.wikipedia.org/wiki/GIF%E3%82%A2%E3%83%8B%E3%83%A1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3)）。音声はファイルに保存できない、256色までしか表示できない、等の短所がありますが、古くあるフォーマットなので多くのソフトが対応しています。
 
 ## zennでGIFアニメーションを表示する際の注意点
 
@@ -26,7 +26,7 @@ zennではアップロードできるファイルのサイズは最大3MBにな�
 - 変換ソフトを使う
 - プログラムを組んで変換する
 
-上記の方法が考えられます。今回は、色々試行錯誤の調整が必要なのと、複数の動画を変換する必要があることから、機械的に実行可能な「プログラムを組んで変換する」を選択しました。幸いPythonのmoviepyで動画編集が簡単にできますので、このライブラリを活用しています。
+上記の方法が考えられます。今回は、色々試行錯誤で調整が必要なのと、多数の動画を一括変換する必要があることから、機械的に実行可能な「プログラムを組んで変換する」を選択しました。幸いPythonのmoviepyで動画編集が簡単にできますので、このライブラリを活用しています。
 
 https://pypi.org/project/moviepy/
 
@@ -34,11 +34,11 @@ https://pypi.org/project/moviepy/
 
 ### 最新Python環境の構築
 
-moviepyはPython 3.4以上で動くようですが、念の為、最新のPython環境をcondaで構築しました。Pythonのインストール自体は以下を参照下さい。
+moviepyはPython 3.4以上で動くようですが、念のため、最新のPython環境をcondaで構築しました。Pythonのインストール自体は以下を参照下さい。
 
 https://zenn.dev/naoji/articles/m1-mac-setting-0010
 
-以下のコマンでcondaで環境を構築して、アクティベートしています。
+以下のコマンで環境を構築して、アクティベートしています。
 
 ```bash
 conda create -n v311 python=3.11 # Python 3.11環境を構築
@@ -62,7 +62,15 @@ brew install ffmpeg # moviepyが内部で使用するffmpegはbrewでインス�
 
 ## Pythonのコード
 
-moviepyがよくできていますのでPythonのコードは至ってシンプルです。記事一つに対してPythonのスクリプトファイルを１つ作成するようにしました。
+moviepyがよくできていますのでPythonのコードは至ってシンプルです。記事一つに対してPythonのスクリプトを１つ作成するようにしました。以下のコードでは、
+
+1. scratch-telenger-0070-1-fighting.mov, scratch-telenger-0070-2-fighting.movの２つのファイルをGIFアニメーション化
+2. 両方ともFHD(1920px x 1080px)の全画面で録画しているため、Scratchの画面部分をcropで切り抜き
+3. 切り抜いても画面サイズが大きいので、resizeで幅を480px, 高さはアスペクト比が固定されているので360pxに縮小
+4. scratch-telenger-0070-1-fighting.movの方は、1秒〜3秒までと18.8秒〜21秒までをsubclipで切り取り、concatenate_videoclipsで結合
+5. scratch-telenger-0070-2-fighting.movの方は、7秒〜11秒までをsubclipで切り取り
+
+上記の一連の処理を実施しています。
 
 ```python
 from moviepy.editor import VideoFileClip, concatenate_videoclips
@@ -89,7 +97,7 @@ clip.write_gif("images/scratch-telenger-0070/" + name + ".gif", fps=15)
 
 ## GIFアニメーションへの変換結果
 
-上記のコードで変換した動画のオリジナル（YouTube）、と変換後（GIFアニメーション）は以下になります。GIFアニメーションはzennではアップロード3MB制約があるので、尺は数秒が限界ですが、すぐに表示されるのでわかりやすいですね。
+上記のコードで変換したオリジナル動画（YouTube）、と変換後（GIFアニメーション）は以下になります。GIFアニメーションはzennのアップロード3MB制約に収めるため、尺は数秒が限界ですがすぐに表示されるのでわかりやすいですね。
 
 ### YouTube（その１）
 
@@ -109,4 +117,4 @@ https://youtu.be/YZUWXLYx4Rs
 
 ## おわりに
 
-動画をPythonで簡単に編集できることがわかったので、今後は機械的な編集はPythonを積極的に活用しようと思います！
+動画をPythonで簡単に編集できることがわかりました。今後は機械的な編集はPythonを積極的に活用しようと思います！
