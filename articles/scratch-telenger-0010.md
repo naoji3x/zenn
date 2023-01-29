@@ -154,3 +154,4 @@ Affinity Designerから出力されるsvgファイルは幅・高さが100%で�
 [(5) ハンコの脅威（敵キャラを動かす）](https://zenn.dev/naoji/articles/scratch-telenger-0050)
 [(6) 死闘！デジタル・フラッシュ（ビーム発射）](https://zenn.dev/naoji/articles/scratch-telenger-0060)
 [(7) オフィスの激戦（当たり判定）](https://zenn.dev/naoji/articles/scratch-telenger-0070)
+[(8) ハンコまわし 散る（HPバー）](https://zenn.dev/naoji/articles/scratch-telenger-0080)
