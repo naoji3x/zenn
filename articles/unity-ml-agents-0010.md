@@ -44,7 +44,6 @@ Pythonの環境は以下の記事にあるようにminiforgeで構築してい�
 
 https://zenn.dev/naoji/articles/m1-mac-setting-0010
 
-
 ml-agents用に`ml-agents-20`という名前の仮想環境を作成してアクティベートしました。
 
 ```zsh
@@ -57,7 +56,6 @@ ml-agents用に`ml-agents-20`という名前の仮想環境を作成してアク
 公式のインストールマニュアルには書いてないのですが、いくつかPythonのパッケージのインストールが必要です。
 
 https://github.com/Unity-Technologies/ml-agents/blob/release_20/docs/Installation.md
-
 
 以下のパッケージをcondaでインストールしました。
 
@@ -81,4 +79,3 @@ Exampleを動かすところまで、冒頭のShqnDさんが丁寧に記載し�
 ## おわりに
 
 まとめてみると大したことはやっていないのですが、ShqnDさんの記事に辿り着くまで、なかなかインストールのエラーが解消されず、かなりハマっていました😭。ようやく動くようになりましたので色々~~遊んで~~勉強してみます。
-

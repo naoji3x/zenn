@@ -65,7 +65,6 @@ https://procreate.art/jp
 
 ![テレんじゃーラフ](/images/scratch-telenger-0010/scratch-telenger-0010-1-rough.gif)
 
-
 #### 本素材の作成(Affinity Designer)
 
 Scratchのスプライトはサイズ変更しても画像が荒くならないsvg形式の画像に対応しています。このsvg形式の画像を作成するためにはベクターグラフィックソフトが必要で、私はAffinity Designerというソフトを愛用しています。他にも有料ではAdobe Illustrator、オープンソースではInkscapeなどが有名です。
