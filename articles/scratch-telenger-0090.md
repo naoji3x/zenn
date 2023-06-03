@@ -3,7 +3,7 @@ title: "Scratchでオリジナルキャラクターを動かそう！ (9) 宿命
 emoji: "🧑‍💻"
 type: "tech"
 topics: ["scratch", "CoderDojo", "animation"]
-published: false
+published: true
 ---
 
 ## はじめに
